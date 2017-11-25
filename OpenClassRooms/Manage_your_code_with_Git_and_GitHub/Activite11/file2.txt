@@ -1,0 +1,2 @@
+This line is append to file 2 (commit No. 4)
+The commit No.5 will remove the very first line of this file (accordingly to 'design' and create new sub-folder with the 2 files)
