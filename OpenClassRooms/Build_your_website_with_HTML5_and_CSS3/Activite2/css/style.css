@@ -1,0 +1,49 @@
+body
+{
+    background-image: url("../img/bckg.png");
+}
+
+h1
+{
+	font-family: "Comic Sans MS", "Trebuchet MS", "Verdana", "Times New Roman";
+	font-size: 2.1em;
+	text-align: center;
+	color: maroon;
+}
+
+@font-face {
+    font-family: 'LearningCurveProRegular';
+    src: url('LearningCurve_OT-webfont.eot');
+    src: url('LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LearningCurve_OT-webfont.woff') format('woff'),
+         url('LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+}
+
+h2
+{
+	font-family: 'LearningCurveProRegular', Arial, serif;
+	font-size: 1.6em;
+	color: #8D4004;
+}
+
+ul
+{
+    text-shadow: 2px 4px 4px black;
+}
+
+
+.intro
+{
+	font-size: 1.1em;
+	text-align: center;
+        font-weight: bold;
+}
+
+.imgframe
+{
+	border-radius: 10px;
+	border: 3px #ffa500 ridge;
+}
+
+
