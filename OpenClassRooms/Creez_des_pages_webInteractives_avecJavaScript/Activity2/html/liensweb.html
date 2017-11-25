@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/liensweb.css">
+    <title>Activité 2</title>
+</head>
+
+<body>
+    <h1>Activité 2</h1>    
+	<div>
+		<!-- jean's b insertion of the form -->
+
+      		<span id="added" style="background: lightblue;"></span>
+      			<button id="showForm">Ajouter un lien</button>
+      			<form id="inputForm" style="display: none" onsubmit="addNewLink(); return false;">
+        			<input type="text" name="auteur" placeholder="Entrez votre nome">
+        			<input type="text" name="titre" placeholder="Entrez le titre du lien">
+        			<input type="text" name="url" placeholder="Entrez l'URL du lien">
+        			<button id="add">Ajouter un lien</button>
+      			</form>
+    	</div>
+    <br><br>
+
+    <!-- Les nouveaux éléments sont ajoutés dans cette balise -->
+    <div id="contenu">
+    </div>
+
+    <script src="../js/liensweb.js"></script>
+</body>
+
+</html>
