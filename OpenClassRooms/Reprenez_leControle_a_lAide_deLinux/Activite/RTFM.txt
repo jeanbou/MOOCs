@@ -1,7 +1,0 @@
-
-This is the manual (F-manual:) for the script langstat.sh
-
-Programmed functionality (commands for dummies): 
-
-1) ./langstat.sh <filename> runs a letter based statistics for the given <filename>
-2) ./langstat.sh <filename> -w counts the words in the given file seperated by space

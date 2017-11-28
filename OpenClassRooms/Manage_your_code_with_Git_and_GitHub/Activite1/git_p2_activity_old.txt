@@ -1,9 +1,0 @@
-IB repository URL: https://github.com/jeanbou/ocr_ib_td1.git
-
---- Given help instruction to IB ---
-
-Managing your code with Git and GitHub
-Part 2 Activity: Share a repository on GitHub
-
-My repository URL:
-(example: https://github.com/yourusername/yourproject)

@@ -1,2 +1,0 @@
-Here there is insertion to File 1 (commit No.3)
-This is the file 1
