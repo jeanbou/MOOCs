@@ -1,3 +1,4 @@
+# Dive into Bootstrap 
 
 Introduction du cours
 Do you build websites and spend a lot (too much) time on the CSS?

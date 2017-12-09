@@ -1,3 +1,5 @@
+# Creez des pages web Interactives avec JavaScript
+
 Quelle est la recette magique pour creer un site web reussi ?  Proposer un contenu de qualite, mais pas seulement. Le Web a evolue et ses utilisateurs sont maintenant exigeants. L'apparence et le comportement du site sont devenus des criteres-cles : il faut offrir a l'internaute une experience de navigation fluide et intuitive pour esperer retenir son attention. Mais comment faire ???
 
 Le langage JavaScript a ete invente dans les annees 1990 pour dynamiser les sites Internet. Il a beaucoup evolue depuis, au point de devenir essentiel, mais il a toujours garde ce role central de langage de programmation du web.

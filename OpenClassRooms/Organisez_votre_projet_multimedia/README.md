@@ -1,3 +1,5 @@
+# Organisez votre projet multimedia 
+
 Vous etes chef de projet web en poste ou en devenir, et  et vous aimeriez organiser vos projets de main de maitre ? Vous avez besoin d'outils et de methodes pour cadrer le planning et le budget de vos clients ? Alors venez decouvrir comment vous organiser au mieux pour assurer la reussite de vos projets dans les limites imposees. 
 
 Avant de vous lancer, je vous conseille de consulter les autres cours de notre serie sur la gestion de projet, l'un sur la methode de gestion de projet en cascade, le deuxieme sur le cadrage projet et enfin le troisieme sur le cahier des charges, surtout si vous ne connaissez pas ces sujets.

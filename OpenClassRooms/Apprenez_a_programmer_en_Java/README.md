@@ -1,4 +1,4 @@
-Bonjour a tous ! :D
+# Apprenez a programmer en Java
 
 Bienvenue dans mon cours de programmation en Java. C'est un langage tres utilise, notamment par un grand nombre de programmeurs professionnels, ce qui en fait un langage incontournable actuellement.
 
