@@ -4,7 +4,7 @@
   "description": "",
   "dependencies": {
         "express": "~4.11.0",
-        "ejs": "~2.1.4",
+        "ejs": "~2.5.5",
         "cookie-session": "~1.1.0",
         "body-parser": "~1.10.1"
   },
