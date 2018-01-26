@@ -1,0 +1,543 @@
+<style>
+body
+{
+	background-color: #aec3e0;
+}
+body, header, section, footer, nav, article, H1, H2, H3, a, P, input {
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+body, header, section, footer, nav, article, P, input {
+	font-size: 16px;
+	color : black;
+}
+.well
+{
+	background-color: #668dc4;
+}
+#bloc_page
+{
+    width: 100%;
+    margin: auto;
+    background-color: #aec3e0;
+}
+nav
+{
+	margin-left: -50px;
+}
+H1, H2, H3 {
+	text-align : center;
+	align : center;
+}
+H1 {
+	font-size: 24px;
+	font-style: normal; 
+	font-variant: normal;
+	font-weight: bold;
+	color : black;
+}
+h1.PageIndex
+{
+	margin-right : 20%;
+    margin-left : 20%;
+}
+H3
+{
+	
+	margin : 0% 20% 0% 20%;
+	color : gray;
+}
+H3.errorDB, H3.errorFileUpload
+{
+	color : red;
+}
+H3 P
+{
+	align : center;
+	text-align : center;
+	margin : 0% 20% 0% 20%;
+	color : gray;
+}
+H3.green
+{
+	align : center;
+	margin : 0% 20% 0% 20%;
+	color : green;
+}
+header
+{
+	margin : 2% 30% 0% 30%;
+	align : center;
+	text-align : center;
+	color : #696969;
+}
+header, fieldset, footer, a
+{
+    -moz-border-radius : 10px;
+    -webkit-border-radius:10px;
+    border-radius: 10px 10px 10px 10px;
+	border: 3px solid #318ce7;
+}
+ section
+{
+    padding : 0% 0% 30px 1%;
+    margin : 1% 5% 10px 10%; 
+}
+input
+{
+    -moz-border-radius : 10px;
+    -webkit-border-radius:10px;
+    border-radius: 10px 10px 10px 10px;
+}
+input[type="text"]
+{
+	background-color : white;
+     width : 99%;    
+}
+
+input[type=submit]
+{
+	display: block;
+	align : center;
+ 	background-color: #318ce7;
+	border: 4px solid #318ce7;	
+	font-size: 16px;
+	vertical-align : middle;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	color : white;
+    -moz-appearance: button;
+}
+input[type="submit"]:hover, input[type="file"]:hover
+{
+    font-weight : bold;
+    text-decoration : underline;
+    cursor:  pointer;
+}
+input[type=submit].btnIndex
+{
+	padding: 10px;
+	margin : 0% 20% 0% 0%;
+	width : 50%;
+}
+input[type=submit].btnExporter
+{
+	position: absolute;
+    right: 18%;
+    width : 50%;
+    display: inline-block;
+	vertical-align: top;
+	text-align : center;
+	text-decoration : none;
+	width : 6%;
+	margin-right:15%;
+}
+input[type=submit].btnNav
+{
+	margin : 5% 0% 0% 30%;
+	width : 60%;
+}
+
+input[type=submit].gobutton
+{
+	align:center; 
+	width: 27%; 
+	margin-left : 15%; 
+	margin-right : 40%;
+}
+
+input[type=submit].inputButtonFixedRight
+{
+	position:fixed;
+	right: 2%;
+	width : 160px;
+	height : 40px;
+	margin-right : 0px;
+	vertical-align : middle;
+}
+input.[type=file]
+{
+	align : center;
+	background-color: #7FFFD4;
+	border: 4px solid #2CC248;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+input.[type=file].inputSubmitBtn
+{
+	padding: 10px;
+	margin-right : 50%;
+	margin-left : 5%;
+	font-weight: bold;
+	width : 30%;
+}
+article
+{
+    text-align: justify;
+	font-variant: normal;
+}
+article#IdModiFichier
+{
+	padding : 0% 30px 0% 30px;
+    border: 1px solid #0568CD;	
+    width : 20%;
+    margin : 2% 2% 2% 30px;
+}
+
+H2 
+{
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+  	color: #696969;	
+  	align : center; 
+}
+P
+{
+	font-size: 16px;
+	font-style: normal;
+	color : black;	
+	text-align: justify;
+}
+P.lisFichiers
+{
+	font-size : 24px;
+	font-variant: normal;
+	font-weight: 500;
+	font-weight: bold;
+	color : black;
+}
+P#idMessage
+{
+    margin : 2% 2% 2% 2%;
+}
+P.padding
+{
+	padding: 0px 15px 0px 15px;
+}
+table,th,td,tr
+{
+    border-collapse: collapse;
+    border-spacing : 0%;
+	border-padding : 0%;
+	align : center;
+	color : black;
+	background-color : #ccc;
+}
+table td
+{
+	spacing : 5%;
+	height :auto;
+	padding : 0%;
+	background-color : #ccc;
+}
+table th
+{	
+	spacing : 5%;
+	height :auto;
+	padding : 0%;
+	width : 100px;
+ 	background-color : #ccc;
+}
+table#tabModif td
+{
+	margin : 0% 0% 0% 0%;
+	width : 50%;
+	background-color:#ccc;  
+	border: 1px solid grey;
+}
+table#tabEdit
+{
+	border-spacing: 0px;
+	margin : 0% 0% 2% 0%;
+     width : 100%;
+	border: 1px solid grey;
+}
+table#tabEdit td
+{
+	width : 50%;
+ 	margin : 0% 0% 0% 0%;
+	background-color : #ccc;
+	border: 1px solid grey;
+}
+table#tabModif
+{
+	table-layout: fixed;
+	margin : 0% 0% 2% 0%;
+    width : 100%; 
+}
+table#tabModif td
+{
+	width : 50%;
+	margin : 0% 0% 0% 0%;
+	background-color : #ccc;	
+	border : 1px solid grey;
+}
+table#tabModif td:hover
+{
+    background-color: #318ce7;
+    border: 2px solid #318ce7 !important;	
+    border-top: 2px solid #00BFFF;
+    border-bottom: 2px solid #00BFFF;
+}
+table#tabRecord
+{
+	border-spacing: 0px;
+    width : 100%; 
+	margin : 0% 0% 2% 0%;
+	border: 1px solid grey;		
+}
+table#tabRecord td
+{
+	width : 50%;
+	margin : 0% 0% 0% 0%;
+	border : 1px solid grey;
+}
+table#tabRecord td:hover
+{
+    background-color: #318ce7;
+    border: 2px solid #318ce7 !important; 
+    border-top: 2px solid #00BFFF;
+    border-bottom: 2px solid #00BFFF;
+}
+table#tabEdit td:hover
+{
+    background-color: #318ce7;
+    border: 2px solid #318ce7 !important;	
+    border-top: 2px solid #00BFFF;
+    border-bottom: 2px solid #00BFFF;
+}
+DIV.btnEnligne P
+{	
+	vertical-align :middle;	
+}
+DIV.btnEnligne span
+{	
+	position : absolute;
+	left : 45%;	
+}
+DIV.btnEnligne
+{
+	width : 98%;
+}	
+DIV#yourBtn
+{
+	border: 1px solid red;
+	margin : 0% 30% 10% 1%;
+}
+DIV#listFichier
+{
+	width : 100%;
+	height : 100%;
+}
+.succes 
+{
+	font-size: 18px;
+	font-style: bold;
+	align : center;
+	text-align : center;
+	color : #606060;	   
+	margin : 0% 40% 0% 20%;
+}
+P.echec {
+	text-align : center;
+	color : #606060;    
+	align : center;
+ 	margin : 0% 40% 0% 23%;
+	font-weight: bold;
+}
+button a {
+	color: white;
+}
+button a:hover {
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	cursor : pointer;
+}
+a
+{
+	background-color: transparent;
+    text-decoration: underline;
+    font-size: 16px;
+    color: black;
+}
+a:hover 
+{
+	cursor : pointer;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 18px;
+    color: #DF6D14;
+    text-align : center;
+}
+a:focus, a:active
+{
+  	font-size: 18px;
+    font-weight : bold;
+    text-decoration : underline;
+    cursor:  pointer;
+}
+
+a.btnContinuer, a.hautDePage, a.btnExporter
+{
+	display: inline-block;
+	vertical-align: top;
+	text-decoration : none;
+ 	background-color: #318ce7;
+	border: 4px solid #318ce7;		
+	color : white;
+	width : 6%;
+    -moz-appearance: button;
+	margin-right:15%;
+}
+a.hautDePage
+{
+	position :fixed;
+	bottom : 3%;
+	left : 7%;
+	width : 6%;
+}
+a.btnContinuer
+{
+	position: absolute;
+    right: 23%;
+}
+a.btnExporter
+{
+	position: absolute;
+    right: 15%;
+}
+
+input#gobutton
+{
+	border:1px solid #33842a;
+	cursor:pointer;
+	padding:5px 25px; 
+	background:#00BFFF; 
+	color:#f3f3f3;
+	font-size:1.1em;
+	align : center;
+	margin-left : 33%;
+}
+input#gobutton:hover, input#gobutton:focus
+{
+	background-color :#399630;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+[class*="col"] {
+
+	margin-bottom: 20px;
+}
+
+img {
+	width: 100%;
+}
+img#imgIndex
+{
+	
+}
+.block {
+	display: block;
+}
+
+.well {
+	background-color: #CCC;
+	padding: 20px;
+}
+
+[class*="col-"], footer {
+
+	border-radius: 6px;
+	line-height: 40px;
+	padding-left: 0px;
+	
+}
+
+.full button span {
+	background-color: limegreen;
+	border-radius: 32px;
+	color: black;
+}
+
+.partially button span {
+	background-color: green;
+	border-radius: 32px;
+	color: black;
+}
+
+#eventForm .form-control-feedback {
+	top: 0;
+	right: -15px;
+}
+
+label, input {
+	display: inline-block;
+}
+
+input.text {
+	margin-bottom: 12px;
+	width: 95%;
+	padding: .4em;
+}
+
+fieldset {
+	margin-top: 25px;
+}
+
+h1 {
+	font-size: 1.2em;
+	margin: .6em 0;
+}
+
+div#users-contain {
+	width: 350px;
+	margin: 20px 0;
+}
+
+div#users-contain table {
+	margin: 1em 0;
+	border-collapse: collapse;
+	width: 50%;
+}
+
+div#users-contain table td, div#users-contain table th {
+	border: 1px solid #eee;
+	padding: .6em 10px;
+	text-align: left;
+}
+
+.ui-dialog .ui-state-error {
+	padding: .3em;
+}
+
+.validateTips {
+	border: 1px solid transparent;
+	padding: 0.3em;
+}
+.vertical-center {
+   min-height: 60%;   
+   min-height: 60vh;  
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  
+    -webkit-box-align : center;
+       -moz-box-align : center;
+       -ms-flex-align : center;
+          align-items : center;
+         -webkit-box-pack : center;
+            -moz-box-pack : center;
+            -ms-flex-pack : center;
+  -webkit-justify-content : center;
+          justify-content : center; 
+}
+
+</style>
