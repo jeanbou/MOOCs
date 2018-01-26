@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ma todolist</title>
+        <style>
+            a {text-decoration: none; color: black;}
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Ivan BUDNYK's Todo List in Real Time</h1>
+
+        <ul>
+        <% todolist.forEach(function(todo, index) { %>
+            <li><a href="/todo/supprimer/<%= index %>">✘</a> <%= todo %></li>
+        <% }); %>
+        </ul>
+
+        <form action="/todo/ajouter/" method="post">
+            <p>
+                <label for="newtodo">Que dois-je faire ?</label>
+                <input type="text" name="newtodo" id="newtodo" placeholder="Enter your item..." size="50" autofocus/>
+                <input type="submit" id="todosubmit"/>
+            </p>
+        </form>
+
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js">            
+        </script>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+
+            var socket = io.connect('http://localhost:8080');
+            var pseudo = prompt('Quel est votre pseudo ?');
+            socket.emit('nouveau_client', pseudo);
+            document.title = pseudo + ' - ' + document.title;
+
+        </script>
+    </body>
+</html>
