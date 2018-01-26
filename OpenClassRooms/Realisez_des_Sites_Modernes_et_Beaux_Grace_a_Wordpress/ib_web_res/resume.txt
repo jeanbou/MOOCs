@@ -1,0 +1,18 @@
+1) I have used theme Modern downloaded and installed
+
+2) I have changed the text option for search (via CMS of Themecloud), but when the text field is empty it inserts the text "Set the default text in Customizer > Predefined Texts"
+
+2A) To prove this, I create a mirror site http://ronaldo.themecloud.me/ , with the same theme Modern and empty text string (set as said via CMS). Please, check out proof screen short: proof.jpg
+2B) To resolve this “hated” preprogrammed specificity, I went to the section edit and using Ctrl+F found among all php-pages the file where it was set for case of the empty text that comes from CMS. I have corrected this php file and voila check out main.jpg to find the difference!
+
+2C) The corrections that have been done in the same Ctrl+F manner are:
+2C1) in main css file, I have corrected the border line that separated by default search field and main page. I have found correspondent header css class and set border : o px (no line ouf!)
+2C2) I have found a php file responsible for inserting all search section (in 2C1 I have just got rid of separator) and I have completely deleted it out, as I don’t need to have search on my main page!
+2C2) At the very bottom (assume for all them) you have the text dedicated to creator of theme and other bla bla bla. I have found php file where there is this text and reference and deleted it completely. Yes we can do everything if we search and analyze!
+In short, 2C1 - 2C2 demonstrate my skills to modify not only css but all php-theme file and my ability to satisfy final customer needs!
+
+3) Why Modern theme? Well I have been searching not only what I wanted, but what my customer Ronald wants. He wants something similar to http://www.lindsayadlerphotography.com/ . Me I wanted something that I & he can modify. I have spent 2 days googling the review on Wordpress free themes and applying and testing them after all. My initial pool try&fail-pool has contained of 25 themes, I have chosen Modern theme as the best not only to me but for customer. Well, I didn't care actually about review. I care about final solution. Such wild developers’ reality!
+
+4) plugin Calendar in the footer is the most easiest part of requirement, , just click, click & save! Check out it at pdf files
+
+Thank you for review!

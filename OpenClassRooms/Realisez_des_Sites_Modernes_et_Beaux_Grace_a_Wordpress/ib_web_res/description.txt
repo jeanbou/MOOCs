@@ -1,0 +1,8 @@
+Hi,
+
+Concerning the requirements:
+
+Site created on: http://rnd.themecloud.me/
+The screenshot (when you click on URL): main.jpg
+The screenshot of each pages (note that pdf format is used, because the pages have more info and must be scrolled by user): portfolio.pdf , about.pdf , blog.pdf , store.pdf , learn.pdf , events.pdf
+Plugging calendar: plug_calendar.jpg
