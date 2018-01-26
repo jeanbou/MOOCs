@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/fr/ocr/ihm/listener/ButtonListener.java=UTF-8
+encoding//src/fr/ocr/ihm/listener/NewVehiculeListener.java=UTF-8
+encoding//src/fr/ocr/ihm/listener/ViewDetailVehiculeListener.java=UTF-8
+encoding//src/fr/ocr/sql/DAO.java=UTF-8
+encoding//src/fr/ocr/sql/VehiculeDAO.java=UTF-8
