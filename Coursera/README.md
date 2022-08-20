@@ -1,5 +1,5 @@
-# Coursera | Online Courses From Top Universities
+# [Coursera](https://www.coursera.org/) | Online Courses From Top Universities
 
-https://en.wikipedia.org/wiki/Coursera
-https://www.coursera.org/
+More info [about Coursera](https://en.wikipedia.org/wiki/Coursera platform
+
 
