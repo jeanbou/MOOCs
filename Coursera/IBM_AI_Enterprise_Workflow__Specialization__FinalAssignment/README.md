@@ -1,7 +1,7 @@
 # Coursera | Final Assignment
 
-# Submition
-https://www.coursera.org/learn/ibm-ai-workflow-ai-production/peer/CGsqr/capstone-project-peer-review/review/WJizFa2BEeqvagpiOnyMDw
+## Submition
+[IBM AI Workflow AI production](https://www.coursera.org/learn/ibm-ai-workflow-ai-production/peer/CGsqr/capstone-project-peer-review/review/WJizFa2BEeqvagpiOnyMDw)
 
-# Coursera Capstone Project of the final assignment
-https://www.coursera.org/learn/ibm-ai-workflow-ai-production/peer/CGsqr/capstone-project-peer-review
+## Coursera | Capstone Project 
+[Final assignment](https://www.coursera.org/learn/ibm-ai-workflow-ai-production/peer/CGsqr/capstone-project-peer-review)
