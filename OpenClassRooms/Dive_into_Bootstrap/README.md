@@ -1,6 +1,7 @@
 # Dive into Bootstrap 
 
-Introduction du cours
+*Description of this old course:*
+
 Do you build websites and spend a lot (too much) time on the CSS?
 
 In that case Bootstrap is just what you need!
@@ -9,5 +10,5 @@ This course will help you explore this powerful toolbox. Bootstrap, a CSS kit cr
 
 To fully benefit from this course, you should have some previous knowledge including:
 
-HTML and CSS: take your first steps with HTML via Build your website with HTML5 and CSS3.
-jQuery: learn more about jQuery in Make JavaScript easier with jQuery.
+* HTML and CSS: take your first steps with HTML via Build your website with HTML5 and CSS3.
+* jQuery: learn more about jQuery in Make JavaScript easier with jQuery.
