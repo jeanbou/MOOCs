@@ -1,5 +1,6 @@
-# My OpenClassRooms accomplished tasks/assigments/homeworks while studing their cours
+# [OpenClassrooms](https://openclassrooms.com) | French online education platform 
 
-## Info sur OpenClassrooms: Des parcours diplomants et des cours gratuits
-https://openclassrooms.com/
-https://en.wikipedia.org/wiki/OpenClassrooms
+Info on [OpenClassrooms](https://en.wikipedia.org/wiki/OpenClassrooms)
+
+In this folder you will find my accomplished tasks / assigments / homeworks of some OpenClassrooms courses
+
