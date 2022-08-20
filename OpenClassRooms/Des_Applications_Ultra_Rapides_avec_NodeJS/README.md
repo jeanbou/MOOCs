@@ -1,5 +1,9 @@
 # Des applications ultra-rapides avec Node.js
 
+[Link on the course](https://openclassrooms.com/en/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb?archived-source=1056721)
+
+*Description:*
+
 Node.js, c'est un peu l'outil dont les developpeurs web entendent parler tout le temps en ce moment. Il y a ceux qui connaissent (et qui ont l'air de s'eclater en l'utilisant) et il y a ceux qui se disent "Bon, ca serait bien que j'y jette un oeil, mais je ne sais pas par ou commencer".
 
 Vous etes de ceux-la ? Ca tombe bien, je l'ai ete moi aussi ! ;)
