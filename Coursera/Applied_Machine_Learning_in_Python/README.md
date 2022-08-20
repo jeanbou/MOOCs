@@ -1,5 +1,5 @@
 # Applied Machine Learning in Python 
-*Note:* The provided code is in draft form with commented try and failed solution.
+*Note:* The provided code of [Applied Machine Learning in Python](https://www.coursera.org/learn/python-machine-learning) of mine is in draft form with commented try and failed solution.
 In the moment when it's OK and gives expected result no refactoring is applied. The goal to obtain 100%
 The internet sources used is saved as *.txt . Please, check it out. You fill find the authors/coders who deserve the credits
 
