@@ -11,7 +11,8 @@ Halte-la, malheureux ! Ne faites pas un pas de plus, vous faites fausse route !
 Linux n'est pas complique, et je vais vous le prouver.
 Vous ne savez pas ce qu'est Linux ? Ce n'est pas grave, c'est un cours pour debutants : les explications commencent des le premier chapitre !
 
-Image utilisateur
+Image utilisateur,
+
 *A qui s'adresse ce cours ?*
 
 * Aux utilisateurs de Windows qui veulent decouvrir Linux
