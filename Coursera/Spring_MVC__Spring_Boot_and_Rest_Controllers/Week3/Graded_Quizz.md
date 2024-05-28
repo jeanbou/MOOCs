@@ -32,6 +32,7 @@ src/main/resources/templates
 **src/main/resources/static (CORRECT)**
 
 
+
 ### Question 3
 
 Why would you annotate a class with @Controller rather than @RestController
@@ -86,7 +87,6 @@ Who creates the Model object
 
 --
 
-
 **DispatcherServlet (CORRECT)**
 
 HandlerAdapter
@@ -134,7 +134,6 @@ In the application.yaml file enter the key value pair of port=8081
 What is the @RequestMapping annotation used for
 
 --
-
 
 **It defines the Url relationship between a Controller and an HTTP Request and can be placed at the Class level or method level. (CORRECT)**
 
