@@ -11,7 +11,7 @@ Annotate the method argument with @RequestParam(“id”) int id
 
 **Annotate the method argument with @RequestParam(“id”) Optional&lt;Integer&gt; optional (CORRECT)**
 
-Annotate the method argument with @PathVariable(“id”) Optional&lt;Integer&gt; optiona
+Annotate the method argument with @PathVariable(“id”) Optional&lt;Integer&gt; optional
 
 Annotate the method argument with @PathVariable(“id”) int id
 
