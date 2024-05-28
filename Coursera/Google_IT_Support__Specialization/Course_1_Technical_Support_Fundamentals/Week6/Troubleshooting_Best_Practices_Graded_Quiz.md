@@ -31,6 +31,20 @@ Asking the user to restart the computer
 
 Asking the user to clear the web browser cache.
 
+### Question 1
+
+What is the first step to follow when troubleshooting?
+
+--
+
+Tell the user that you need to keep the computer for troubleshooting.
+
+Ask the user to restart the computer.
+
+**Ask follow up questions to identify the problem. (CORRECT)**
+
+Assume a cause for the problem and try to solve the problem based on the assumption.
+
 
 
 ### Question 2
@@ -76,6 +90,30 @@ Guess the problem based on the user’s answers.
 Identify the root cause.
 
 **Asked the user to buy a new computer. (CORRECT)**
+
+### Question 3
+
+Imagine the following scenario: You are an IT support specialist, and a user brings their computer to be repaired. You have the following conversation:
+
+User: Hi! I have a problem with my laptop. It is totally broken. I think I need a new one.
+
+You: Hi! What is the problem?
+
+User: The laptop does not turn on.
+
+You: Sorry to hear that; let me try. You are right, it is not turning on.
+
+What should be your next step:
+
+--
+
+Tell the user to leave the laptop and wait for your call.
+
+Replace the laptop’s battery.
+
+Agree with the user and replace the laptop.
+
+**Ask more questions, and try to identify the root cause of the problem. (CORRECT)**
 
 
 
@@ -140,6 +178,22 @@ Tell the user to wait.
 Immediately start solving the problem. After you finish, you text back, saying the problem was solved.
 
 **Notify the user you found the root cause of the problem and how long it will take to solve, and you will let them know when the issue is resolved. (CORRECT)**
+
+### Question 5
+
+Consider the following case study:
+
+You are an IT support specialist for a computer repair shop. A customer brings their computer and explains their problem. You need to perform some basic troubleshooting steps that take about 30 minutes. Which is the best way to interact with the customer?
+
+--
+
+Start troubleshooting in front of the customer.
+
+Ask the customer for their phone number and tell them you will contact them when you are finished.
+
+Take the computer to the back of the shop and start troubleshooting, leaving the customer in the waiting area.
+
+**Explain to the customer what needs to be done, the time required to complete it, and give the option to leave the computer or wait at the shop. (CORRECT)**
 
 
 
@@ -239,7 +293,7 @@ Sometimes there are multiple options that can be used to isolate a problem. What
 
 --
 
-$${\color{red}Asking \space the \space customer \space to \space choose. \space (INCORRECT)]}$$
+$${\color{red}Asking \space the \space customer \space to \space choose. \space (INCORRECT)}$$
 
 Always start by reinstalling the OS.
 
@@ -247,8 +301,22 @@ The fastest to implement.
 
 The longest to implement.
 
+### Question 9
+
+What is troubleshooting?
+
+--
+
+$${\color{red}Finding \space the \space root \space cause \space of \space a \space problem. \space (INCORRECT)}$$
+
+Using different methods to help the customer.
+
+The ability to diagnose and resolve a problem.
+
+Asking questions.
 
 
+         
 ### Question 10
 
 Scenario: The help desk receives a call from a customer/user with the problem, “My laptop is not turning on.” Select the best ticket documentation.
@@ -278,3 +346,19 @@ Issue solved
 **After making the corresponding question, I found out that the root cause was that the user was using heavy applications at the same time. Ask to close the application not in use. (CORRECT)**
 
 Ask user to reboot computer
+
+### Question 10
+
+Consider the following case study:
+
+The help desk receives a call from a customer/user with the following problem: “I’m unable to log-in to my account.” Select the best ticket documentation from the following:
+
+--
+
+I sent the reset link to the customer to generate a new password.
+
+User can not log-in to their account.
+
+**The user reported the error, “I’m unable to log-in to my account”. After confirming the user was typing the username and password correctly, I found out that the user password had expired. I sent the reset link to the customer to generate a new password. (CORRECT)**
+
+Close.
