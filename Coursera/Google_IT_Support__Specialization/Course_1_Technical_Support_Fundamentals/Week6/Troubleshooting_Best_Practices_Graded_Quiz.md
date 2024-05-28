@@ -239,7 +239,7 @@ Sometimes there are multiple options that can be used to isolate a problem. What
 
 --
 
--Asking the customer to choose. (INCORRECT)
+- Asking the customer to choose. (INCORRECT)
 
 Always start by reinstalling the OS.
 
