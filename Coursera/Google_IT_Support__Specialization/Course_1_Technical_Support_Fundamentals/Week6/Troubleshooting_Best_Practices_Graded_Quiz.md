@@ -239,7 +239,7 @@ Sometimes there are multiple options that can be used to isolate a problem. What
 
 --
 
-<code style="color : red">**Asking the customer to choose. (INCORRECT)**</code>
+-Asking the customer to choose. (INCORRECT)
 
 Always start by reinstalling the OS.
 
