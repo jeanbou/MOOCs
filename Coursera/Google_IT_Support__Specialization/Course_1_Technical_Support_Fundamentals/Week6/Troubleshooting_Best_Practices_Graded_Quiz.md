@@ -239,7 +239,7 @@ Sometimes there are multiple options that can be used to isolate a problem. What
 
 --
 
-#ffff0000[Asking the customer to choose. (INCORRECT)]
+$${\color{red}Asking \space the \space customer \space to \space choose. \space (INCORRECT)]}
 
 Always start by reinstalling the OS.
 
