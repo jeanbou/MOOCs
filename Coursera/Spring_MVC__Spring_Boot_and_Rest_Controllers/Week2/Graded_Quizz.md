@@ -19,7 +19,6 @@ Annotate the method argument with @PathVariable(“id”) int id
 
 ### Question 2
 
-Question 2
 When accessing a Rest Service at url /abc with an HTTP GET, using RestTemplate, what method would you use to get at the response body immediately.
 
 --
@@ -29,7 +28,6 @@ String string = new RestTemplate().exchange/abc, null, String.class);
 ResponseEntity&lt;String&gt; entity = new RestTemplate().getForEntity(/abc, String.class);
 
 **String string = new RestTemplate().getForObject(/abc, String.class); (CORRECT)**
-
 
 ResponseEntity&lt;String&gt; responseEntity = new ResponseEntity&lt;String&gt; responseEntity = new RestTemplate().exchange("/abc", HttpMethod.GET, null, String.class);
 
