@@ -9,9 +9,9 @@ How would you inject into a Controller method an optional parameter from the req
                
 Annotate the method argument with @RequestParam(“id”) int id
 
-**Annotate the method argument with @RequestParam(“id”) Optional<Integer> optional (CORRECT)**
+**Annotate the method argument with @RequestParam(“id”) Optional&lt;Integer&gt; optional (CORRECT)**
 
-Annotate the method argument with @PathVariable(“id”) Optional<Integer> optiona
+Annotate the method argument with @PathVariable(“id”) Optional&lt;Integer&gt; optiona
 
 Annotate the method argument with @PathVariable(“id”) int id
 
@@ -26,12 +26,12 @@ When accessing a Rest Service at url /abc with an HTTP GET, using RestTemplate, 
 
 String string = new RestTemplate().exchange/abc, null, String.class);
 
-ResponseEntity<String> entity = new RestTemplate().getForEntity(/abc, String.class);
+ResponseEntity&lt;String&gt; entity = new RestTemplate().getForEntity(/abc, String.class);
 
 **String string = new RestTemplate().getForObject(/abc, String.class); (CORRECT)**
 
 
-ResponseEntity<String> responseEntity = new ResponseEntity<String> responseEntity = new RestTemplate().exchange("/abc", HttpMethod.GET, null, String.class);
+ResponseEntity&lt;String&gt; responseEntity = new ResponseEntity&lt;String&gt; responseEntity = new RestTemplate().exchange("/abc", HttpMethod.GET, null, String.class);
 
 
 
@@ -57,9 +57,9 @@ How can you extract the Header “user-agent” out of the request in a RestControll
 
 --
 
-@RequestParam("user-agent") Optional<String> optional)
+@RequestParam("user-agent") Optional&lt;String&gt; optional)
 
-**@RequestHeader("user-agent") Optional<String> optional) (CORRECT)**
+**@RequestHeader("user-agent") Optional&lt;String&gt; optional) (CORRECT)**
 
 **@RequestHeader("user-agent") String agent) (CORRECT)**
 
