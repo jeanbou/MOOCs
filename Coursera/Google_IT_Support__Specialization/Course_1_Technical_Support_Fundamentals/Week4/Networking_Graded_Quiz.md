@@ -59,7 +59,7 @@ Hubs
 
 **Routers (CORRECT)**
 
-$${\color{red}Asking \space You  \space didn’t  \space select  \space all  \space the \space correct \space answers}$$
+$${\color{red}You  \space didn’t  \space select  \space all  \space the \space correct \space answers}$$
 
 ### Question 3
 
