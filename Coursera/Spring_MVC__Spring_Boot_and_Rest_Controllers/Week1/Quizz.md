@@ -45,7 +45,7 @@ src/main/resources/static
 
 src/main/resources/js
 
-**src/main/resources/config (CORRECT)
+**src/main/resources/config (CORRECT)**
 
-Correct
-True, although such properties can lie directly under src/main/resources frequently they are found under a config sub directory**
+
+_Although such properties can lie directly under src/main/resources frequently they are found under a config sub directory_
