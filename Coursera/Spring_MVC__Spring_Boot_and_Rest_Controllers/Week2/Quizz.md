@@ -50,3 +50,112 @@ What attribute would you add to a @GetMapping(“/”) annotated RestController meth
 **@GetMapping(path=”/”, produces={MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE}) (CORRECT)**
 
 
+
+### Question 4
+
+How can you extract the Header “user-agent” out of the request in a RestController method, to be available in that method for processing
+
+--
+
+@RequestParam("user-agent") Optional<String> optional)
+
+**@RequestHeader("user-agent") Optional<String> optional) (CORRECT)**
+
+**@RequestHeader("user-agent") String agent) (CORRECT)**
+
+@PathVariable("user-agent") String agent)
+
+
+
+### Question 5
+
+How can you extract the request payload and inject it into a RestController method for processing
+
+--
+
+@Header
+
+**@RequestBody (CORRECT)**
+
+@RequestParam
+
+@Pathvariable
+
+
+
+### Question 6
+
+Which annotation marks an input argument to a RestController method that can ONLY be mandatory
+
+--
+
+@RequestHeader
+
+@RestController
+
+**@PathVariable (CORRECT)**
+
+@RequestParam
+
+
+
+### Question 7
+
+Which annotation marks an input argument to a RestController as an optional argument from a QueryString
+
+--
+
+@PathVariable
+
+@RequestHeader
+
+@RestController
+
+**@RequestParam (CORRECT)**
+
+
+
+### Question 8
+
+In a Spring Boot project using the default setup, If an accept header is not provided in a GET request of a resource representation of a Java object, what MediaType will the response payload take
+
+--
+
+Text
+
+XML
+
+Java Object
+
+**Json (CORRECT)**
+
+
+
+### Question 9
+
+In order for converters to translate a request payload on a Post Request to a RestController method, what annotation do you use for the RestControllers method argument
+
+--
+
+@PathParam
+
+@RequestParam
+
+**@RequestBody (CORRECT)**
+
+@PostMapping
+
+
+### Question 10
+
+Which of these methods on RestTemplate must you provide the desired HTTP method as one of the arguments
+
+--
+            
+postForEntity
+
+getForObject
+
+**exchange (CORRECT)**
+
+getForEntity
