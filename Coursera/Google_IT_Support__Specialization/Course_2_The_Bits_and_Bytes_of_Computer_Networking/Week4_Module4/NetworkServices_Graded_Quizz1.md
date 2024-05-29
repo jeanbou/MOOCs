@@ -63,7 +63,6 @@ NS
 SQA
 
 QUAD A
-LISTEN
 
 
 
