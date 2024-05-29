@@ -142,7 +142,7 @@ Which of the options below represents the correct & most fully compressed versio
 
 7d2b:a9:a0c4::a772:fd:a523:358
 
-$${\color{red}$$7d2b:a9:a0c4:0:a772:fd:a523:358 \space (INCORRECT)}
+$${\color{red}$$7d2b:a9:a0c4:0:a772:fd:a523:358 \space (INCORRECT)}$$
  
 
 
