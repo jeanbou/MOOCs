@@ -28,6 +28,20 @@ No
 
 **Yes (CORRECT)**
 
+### Question 1
+
+As a Windows Administrator for a large company, you are asked to grant temporary software installation permissions to the Sales department. Which of the following would be the most efficient method for accomplishing this task? 
+
+--
+               
+**Add the User account for each employee in the Sales department into a special Group, then grant temporary software installation permissions to the Group. (CORRECT)**
+
+Grant temporary Administrator permissions to each employee in the Sales department.
+
+Grant each employee in the Sales department temporary Local Administrator permissions on their individual computers.
+
+Grant each employee in the Sales department temporary software installation permissions on their individual User accounts.
+
 
 
 ### Question 2
@@ -175,7 +189,7 @@ Which of the following methods can Administrators use to add a user in Windows? 
 
 **In the GUI, under Local Users and Groups in the Computer Management tool, right click Users and select New User. (CORRECT)**
 
-At the CLI, using the DOS style net computer computername/new command.
+$${\color{red}At \space the \space CLI, \space using \space the \space DOS \space style \space net \space computer \space computername/new \space command. \space (INCORRECT)}$$
 
 **At the CLI, use the DOS style net user username * /add command. (CORRECT)**
 
@@ -197,6 +211,18 @@ Change
 
 **Write (CORRECT)**
 
+### Question 8
+
+Is it possible to have write access to a file in Windows without having read access to that same file?
+
+-- 
+
+Maybe
+
+Yes
+
+$${\color{red}No \space (INCORRECT)}$$
+
 
 
 ### Question 9
@@ -212,6 +238,21 @@ Imagine you are an IT administrator and you need to check that proper permission
 $${\color{red}Drwxrw-r- - \space (INCORRECT)}$$
 
 -rwerw-r- -
+
+### Question 9
+
+When examining the permissions on a file in Linux you find the the first four bits are -rwx. What does this mean?
+
+--
+ 
+
+It is a directory file and the owner has read, write, and exchange permissions.
+
+It is a regular file and the owner has read, write, but no execute permissions.
+
+$${\color{red}It \space is \space a \space directory \space file \space and \space the \space owner \space has \space read, \space write, \space and \space execute \space permissions. \space (INCORRECT)}$$
+
+It is a regular file and the owner has read, write, and execute permissions.
 
 
 
@@ -242,3 +283,17 @@ $${\color{red}admin \space permissions. \space (INCORRECT)}$$
 user permissions.
 
 partial permissions.
+
+### Question 10
+
+When using ICACL in the Windows CLI, what flag shows that a given user can create files?
+
+--
+
+write
+
+S
+
+WD
+
+$${\color{red}CF \space (INCORRECT)}$$
