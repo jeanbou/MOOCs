@@ -16,6 +16,18 @@ General
 
 Limited
 
+### Question 1
+
+Does an administrator user account on a computer have complete control over a machine? 
+
+--
+               
+Sometimes
+
+No
+
+**Yes (CORRECT)**
+
 
 
 ### Question 2
@@ -31,6 +43,20 @@ System Configuration
 **Computer Management (CORRECT)**
 
 Task Manager
+
+### Question 2
+
+In Windows, what does UAC stand for?
+
+--
+
+User Access Console
+
+User Administration Control
+
+User Availability Checklist
+
+**User Account Control (CORRECT)**
 
 
 
@@ -64,6 +90,20 @@ user 1
 
 **root user (CORRECT)**
 
+### Question 4
+
+On a Linux system, which file contains information about group memberships?
+
+--
+
+/etc/users
+
+/etc/sudoers
+
+**/etc/group (CORRECT)**
+
+/etc/passwd
+
 
 
 ### Question 5
@@ -80,6 +120,20 @@ What parameter can be used in the Windows CLI to force a user to change their pa
 
 /passwordkeep:no
 
+### Question 5
+
+What Windows CLI command can be used to change a local user password? 
+
+--
+
+user command
+
+password command
+
+**net command (CORRECT)**
+
+new command
+
 
 
 ### Question 6
@@ -95,6 +149,20 @@ What flag can be used in Linux with the passwd command to force a user to change
 -new flag
 
 -chg flag
+
+### Question 6
+
+What is the name of the privileged file on Linux that stores scramble passwords? 
+
+--
+
+**/etc/shadow (CORRECT)**
+
+/etc/passwords
+
+/passwords
+
+/etc/shade
 
 
 
@@ -141,7 +209,7 @@ Imagine you are an IT administrator and you need to check that proper permission
 
 -rwxrw-r- -
 
-$${\color{red}Drwxrw-r- -(INCORRECT)}$$
+$${\color{red}Drwxrw-r- - \space (INCORRECT)}$$
 
 -rwerw-r- -
 
@@ -160,3 +228,17 @@ In Windows, when setting the basic permission “Read” which of the following spec
 Read Activity
 
 **Read Data (CORRECT)**
+
+### Question 10
+
+In Windows, a simple permission is actually a larger set of ___
+
+--
+
+special permissions.
+
+$${\color{red}admin \space permissions. \space (INCORRECT)}$$
+
+user permissions.
+
+partial permissions.
