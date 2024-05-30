@@ -10,7 +10,7 @@ Which of the following statements are true about child processes in Windows? Sel
                
 **A child process inherits environment variables and settings from its parent. (CORRECT)**
 
-A child process can be terminated by running the taskkill /pidcommand in the CLI.
+**A child process can be terminated by running the taskkill /pidcommand in the CLI. (CORRECT)**
 
 **A child process can be terminated by clicking on the X button in the top right corner of the application. (CORRECT)**
 
@@ -76,6 +76,20 @@ $${\color{red}Task \space Manager \space will \space not \space show \space PID 
 
 Click on the Processes tab.
 
+### Question 3
+
+Which of the following methods can be used to get information on processes that are running in Windows? Select all that apply.
+
+--
+
+**Use the Windows Task Manager. (CORRECT)**
+
+**From the PowerShell prompt, use the Get-Process commandlet. (CORRECT)**
+
+**From the CLI, use the tasklist command. (CORRECT)**
+
+From the CLI, use the ps command.
+
 
 
 ### Question 4
@@ -122,7 +136,21 @@ SUDO
 
 TOUCH
 
-     
+### Question 5
+
+What is the default action of the SIGINT signal?
+
+--
+
+To put the process that is signaled into a sleep state
+
+To restart the process that is signaled
+
+**To terminate the process that is signaled (CORRECT)**
+
+To suspend the process that is signaled
+
+
 
 ### Question 6
 
@@ -149,6 +177,20 @@ Which of the following options in Process Explorer will terminate a selected pro
 **Kill Process (CORRECT)**
 
 Suspend
+
+Restart
+
+### Question 6
+
+Which of the following options are available in Process Explorer after right-clicking a running process in the top window pane? Select all that apply.
+
+--
+
+Suspend
+
+$${\color{red}Remove \space Process \space Tree \space (INCORRECT)}$$
+
+**Kill Process (CORRECT)**
 
 Restart
 
@@ -181,6 +223,20 @@ Use the end process command.
 **Use the kill -KILL pidcommand. (CORRECT)**
 
 Use the terminate process command
+
+### Question 7
+
+In Linux, what signal is sent when you enter the kill pidcommand?
+
+--
+
+SIGINT 
+
+SIGTSTP 
+
+SIGKILL 
+
+**SIGTERM (CORRECT)**
 
 
 
@@ -267,3 +323,17 @@ uptime
 top
 
 **lsof (CORRECT)**
+
+### Question 10
+
+Which of the following Linux commands shows information about the current time, how long your system's been running, how many users are logged on, and what the load average of your machine is?
+
+--
+
+ps -ef
+
+lsof
+
+**uptime (CORRECT)**
+
+top
