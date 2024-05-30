@@ -14,7 +14,7 @@ Windows executable files
                   
 Debian packages
 
-Microsoft install packages
+$${\color{red}Microsoft \space install \space packages \space (INCORRECT)}$$
 
 
 
@@ -31,6 +31,20 @@ Uninstall a software package named “NamePackage”
 Search for a package named “NamePackage” on your Linux system
 
 List all packages installed on your Linux system
+
+### Question 2
+
+What does the following command do in Ubuntu:apt-get install NamePackage?
+
+--
+
+Uninstall a Debian package named “UbuTestPackage”
+
+Install a Debian package named “UbuTestPackage”
+
+$${\color{red}List \space all \space packages \space installed \space on \space your \space Linux \space system \space (INCORRECT)}$$
+
+Uninstall a Debian package named “DPKG”
 
 
 
@@ -64,6 +78,20 @@ Compress-Archive -path C:\Users\testuser\Desktop\TestArchive\ ~\Desktop\TestArch
 
 Extract-Archive -path C:\Users\testuser\Desktop\TestArchive\ ~\Desktop\TestArchive.zip
 
+### Question 4
+
+Which of the following file types are a common type of archive file? Select all that apply.
+
+--
+
+.deb files
+
+**.rar files (CORRECT)**
+
+**.tar files (CORRECT)**
+
+.msi files
+
 
 
 ### Question 5
@@ -96,6 +124,20 @@ An open-source graphical editor
 
 A package manager used in Windows
 
+### Question 6
+
+Which of the following is the package manager used in Ubuntu?
+
+--                    	
+
+Gimp
+
+Puppet
+
+Launchpad
+
+**APT (CORRECT)**
+
 
 
 ### Question 7
@@ -112,6 +154,20 @@ A cmdlet
 
 The devmgmt.msc program
 
+### Question 7
+
+In Ubuntu, when a device is connected to your computer, a device file is created in the /dev directory. What kind of device might create a file called /dev/sdc?
+
+--
+
+**A memory stick (CORRECT)**
+
+A printer
+
+A monitor
+
+A keyboard
+
 
 
 ### Question 8
@@ -127,6 +183,20 @@ Scan the device for viruses
 **Ask for the new device’s hardware ID (CORRECT)**
 
 Place the new device in an existing device category in Device Manager
+
+### Question 8
+
+Which of the following actions can be done through right-clicking in Windows’ Device Manager console? Select all that apply. 
+
+--                          
+
+**Updating a device driver (CORRECT)**
+
+**Disabling a device driver (CORRECT)**
+
+Installing a new device driver
+
+**Uninstalling a device driver (CORRECT)**
 
 
 
@@ -156,6 +226,6 @@ $${\color{red}install \space source.list \space (INCORRECT)}$$
 
 uname -r
 
-sudo apt full-upgrade
+$${\color{red}sudo \space apt \space full-upgrade \space (INCORRECT)}$$
 
 sudo apt update
