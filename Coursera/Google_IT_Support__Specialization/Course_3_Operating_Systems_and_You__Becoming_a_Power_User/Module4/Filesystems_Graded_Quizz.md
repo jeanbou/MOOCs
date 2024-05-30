@@ -1,4 +1,4 @@
-#  Google IT Support 
+# Google IT Support 
 
 ## Operating Systems and You: Becoming a Power User | Week-4, Graded Quizz
 
@@ -48,7 +48,7 @@ The formatting process will complete in less time.
 
 Files will need to be expanded when you open them. 
 
-$${\color{red}You  \space didn’t  \space select  \space all  \space the \space correct \space answers}$$
+$${\color{red}You  \space didn’t \space select  \space all  \space the \space correct \space answers}$$
 
 
 
@@ -112,7 +112,7 @@ Language used in the file data
 
 File data locations
 
-$${\color{red}You  \space didn’t  \space select  \space all  \space the \space correct \space answers}$$
+$${\color{red}You  \space didn’t \space select \space all  \space the \space correct \space answers}$$
 
 
 
