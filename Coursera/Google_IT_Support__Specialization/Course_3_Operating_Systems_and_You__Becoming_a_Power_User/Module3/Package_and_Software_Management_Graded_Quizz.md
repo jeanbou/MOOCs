@@ -16,6 +16,20 @@ Debian packages
 
 $${\color{red}Microsoft \space install \space packages \space (INCORRECT)}$$
 
+### Question 1
+
+Which of the following file types are used to guide software installations in Windows? Select all that apply.
+
+--
+               
+deb files
+
+**.msi files (CORRECT)**
+
+**.exe files (CORRECT)** 
+
+.mpg files
+
 
 
 ### Question 2
@@ -34,7 +48,7 @@ List all packages installed on your Linux system
 
 ### Question 2
 
-What does the following command do in Ubuntu:apt-get install NamePackage?
+What does the following command do in Ubuntu:dpkg -r UbuTestPackage?
 
 --
 
@@ -61,6 +75,20 @@ Windows executables
 Package managers
 
 **App stores (CORRECT)**
+
+### Question 3
+
+Which of the following is a method for installing an app into a mobile OS?
+
+--
+
+Uploading
+
+**Side-loading (CORRECT)**
+
+Down-storing
+
+Unlocking
 
 
 
@@ -188,7 +216,7 @@ Place the new device in an existing device category in Device Manager
 
 Which of the following actions can be done through right-clicking in Windows’ Device Manager console? Select all that apply. 
 
---                          
+--
 
 **Updating a device driver (CORRECT)**
 
@@ -197,6 +225,20 @@ Which of the following actions can be done through right-clicking in Windows’ De
 Installing a new device driver
 
 **Uninstalling a device driver (CORRECT)**
+
+### Question 8
+
+Which of the following actions will open Windows’ Device Manager console? Select all that apply.
+
+--
+
+**Open the Run dialog box and type in devmgmt.msc (CORRECT)**
+
+**Right-click on “This PC,” in the Windows file menu, then select “Manage” (CORRECT)**
+
+Restart your computer
+
+Plug in a new device
 
 
 
@@ -208,7 +250,7 @@ Which of the following Ubuntu device files was created by the first detected sto
  
 /dev/sd0
 
-/dev/sdc
+$${\color{red}/dev/sdc \space (INCORRECT)}$$
 
 **/dev/sda (CORRECT)**
 
@@ -229,3 +271,17 @@ uname -r
 $${\color{red}sudo \space apt \space full-upgrade \space (INCORRECT)}$$
 
 sudo apt update
+
+### Question 10
+
+Which of the following commands will install a new version of the Linux kernel?
+
+--
+
+sudo apt full-upgrade
+
+install NewKernel
+
+$${\color{red}sudo \space apt \space update \space (INCORRECT)}$$
+
+uname -r
