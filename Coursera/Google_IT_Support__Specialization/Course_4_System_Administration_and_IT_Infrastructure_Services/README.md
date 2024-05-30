@@ -1,3 +1,3 @@
-# Operating Systems and You: Becoming a Power User
+# System Administration and IT Infrastructure Services
 
-This [course](https://www.coursera.org/learn/os-power-user) is part of Google IT Support Professional Certificate 
+This [course](https://www.coursera.org/learn/system-administration-it-infrastructure-services) is part of Google IT Support Professional Certificate 
