@@ -185,7 +185,6 @@ What is the name of the privileged file on Linux that stores scramble passwords?
 Which of the following methods can Administrators use to add a user in Windows? (Choose all that apply)
 
 --
-     
 
 **In the GUI, under Local Users and Groups in the Computer Management tool, right click Users and select New User. (CORRECT)**
 
