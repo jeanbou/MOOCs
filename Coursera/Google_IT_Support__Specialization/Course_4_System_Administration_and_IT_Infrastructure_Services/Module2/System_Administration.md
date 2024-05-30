@@ -1,6 +1,6 @@
 # Google IT Support 
 
-## System Administration and IT Infrastructure Services | Week-2, Graded Quizz
+## System Administration and IT Infrastructure Services | Week-2, Graded Quizz 1
 
 ### Question 1
 
