@@ -247,7 +247,7 @@ Injection
 
 An attacker leaves a flash drive loaded with malware on a table. Someone plugs the drive into their computer to see what’s on it and accidentally installs malware. What kind of attack is this?
 
---
+---
 
 DDoS
 
