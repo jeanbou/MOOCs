@@ -112,7 +112,7 @@ Language used in the file data
 
 File data locations
 
-$${\color{red}You  \space didn’t \space select \space all  \space the \space correct \space answers}$$
+$${\color{red}You \space didn’t \space select  \space all  \space the \space correct \space answers}$$
 
 
 
