@@ -1,9 +1,9 @@
-# Perfectionnez-vous sur Angular
+# Secure Your Web Application With Spring Security
 
-[Link on the course](https://openclassrooms.com/fr/courses/7471281-perfectionnez-vous-sur-angular)
+[Link on the course](https://openclassrooms.com/fr/courses/5683681-secure-your-web-application-with-spring-security)
 
 *Description:*
 
-Ce cours fait suite aux cours [Débutez avec Angular](https://openclassrooms.com/fr/courses/7471261-debutez-avec-angular) et [Complétez vos connaissances sur Angular](https://openclassrooms.com/fr/courses/7471271-completez-vos-connaissances-sur-angular), et touche à plusieurs sujets plus avancés
+This course covers topics: how to build a secure login form using Spring Security, how to configure OAuth 2.0 and Open ID Connect to your Spring Security login form. It demonstrates how to prevent CORS, CSRF, session hijacking and cross-site scripting attacks using Spring Security.
 
 Pay attention to each quizz in _mhtml-files_ : ligh-red inidicates wrong answer, light-green - correct one.
