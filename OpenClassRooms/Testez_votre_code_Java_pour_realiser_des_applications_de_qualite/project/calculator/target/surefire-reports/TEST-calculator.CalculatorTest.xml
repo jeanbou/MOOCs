@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="calculator.CalculatorTest" time="0.761" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ibudnyk\jeanbou\MOOCs\OpenClassRooms\Testez_votre_code_Java_pour_realiser_des_applications_de_qualite\project\calculator\target\test-classes;C:\Users\ibudnyk\jeanbou\MOOCs\OpenClassRooms\Testez_votre_code_Java_pour_realiser_des_applications_de_qualite\project\calculator\target\classes;C:\Users\ibudnyk\.m2\repository\org\junit\jupiter\junit-jupiter\5.5.1\junit-jupiter-5.5.1.jar;C:\Users\ibudnyk\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.1\junit-jupiter-api-5.5.1.jar;C:\Users\ibudnyk\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ibudnyk\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ibudnyk\.m2\repository\org\junit\platform\junit-platform-commons\1.5.1\junit-platform-commons-1.5.1.jar;C:\Users\ibudnyk\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.1\junit-jupiter-params-5.5.1.jar;C:\Users\ibudnyk\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.1\junit-jupiter-engine-5.5.1.jar;C:\Users\ibudnyk\.m2\repository\org\junit\platform\junit-platform-engine\1.5.1\junit-platform-engine-1.5.1.jar;C:\Users\ibudnyk\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Luxembourg"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\programmation\tools\java\java\bin"/>
+    <property name="sun.java.command" value="C:\Users\ibudnyk\AppData\Local\Temp\surefire10368245452813045315\surefirebooter8668494472215503360.jar C:\Users\ibudnyk\AppData\Local\Temp\surefire10368245452813045315 2024-07-05T15-16-08_164-jvmRun1 surefire3165676306680811583tmp surefire_0461492910862498521tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ibudnyk\jeanbou\MOOCs\OpenClassRooms\Testez_votre_code_Java_pour_realiser_des_applications_de_qualite\project\calculator\target\test-classes;C:\Users\ibudnyk\jeanbou\MOOCs\OpenClassRooms\Testez_votre_code_Java_pour_realiser_des_applications_de_qualite\project\calculator\target\classes;C:\Users\ibudnyk\.m2\repository\org\junit\jupiter\junit-jupiter\5.5.1\junit-jupiter-5.5.1.jar;C:\Users\ibudnyk\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.1\junit-jupiter-api-5.5.1.jar;C:\Users\ibudnyk\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ibudnyk\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ibudnyk\.m2\repository\org\junit\platform\junit-platform-commons\1.5.1\junit-platform-commons-1.5.1.jar;C:\Users\ibudnyk\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.1\junit-jupiter-params-5.5.1.jar;C:\Users\ibudnyk\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.1\junit-jupiter-engine-5.5.1.jar;C:\Users\ibudnyk\.m2\repository\org\junit\platform\junit-platform-engine\1.5.1\junit-platform-engine-1.5.1.jar;C:\Users\ibudnyk\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ibudnyk"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\programmation\tools\java\java"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ibudnyk\jeanbou\MOOCs\OpenClassRooms\Testez_votre_code_Java_pour_realiser_des_applications_de_qualite\project\calculator"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ibudnyk\AppData\Local\Temp\surefire10368245452813045315\surefirebooter8668494472215503360.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.11+9"/>
+    <property name="user.name" value="ibudnyk"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.11+9"/>
+    <property name="localRepository" value="C:\Users\ibudnyk\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\ibudnyk\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.11"/>
+    <property name="user.dir" value="C:\Users\ibudnyk\jeanbou\MOOCs\OpenClassRooms\Testez_votre_code_Java_pour_realiser_des_applications_de_qualite\project\calculator"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\programmation\tools\java\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\ibudnyk\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ibudnyk\bin;C:\programmation\tools\java\java\bin\server;C:\programmation\tools\java\java\bin;C:\programmation\tools\java\java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\programmation\tools\apache-maven-3.8.7\bin;C:\Program Files\WinMerge;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet;C:\Program Files\Amazon\AWSCLIV2;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\ibudnyk\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\ibudnyk\AppData\Local\Programs\Python\Python312;C:\Users\ibudnyk\AppData\Local\Microsoft\WindowsApp;C:\programmation\tools\apache-maven-3.8.7\bin&quot;;C:\Users\ibudnyk\.dotnet\tools;C:\Users\ibudnyk\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\ibudnyk\AppData\Local\Programs\Microsoft VS Code\bin;C:\WINDOWS\system32;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.11+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testAddTwoPositiveNumbers" classname="calculator.CalculatorTest" time="0.098"/>
+  <testcase name="add_shouldReturnTheSum_ofMultipleIntegers{int, int, int}[1]" classname="calculator.CalculatorTest" time="0.027"/>
+  <testcase name="add_shouldReturnTheSum_ofMultipleIntegers{int, int, int}[2]" classname="calculator.CalculatorTest" time="0.002"/>
+  <testcase name="add_shouldReturnTheSum_ofMultipleIntegers{int, int, int}[3]" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="multiply_shouldReturnTheProduct_ofTwoIntegers" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="longCalcul_shouldComputeInLessThan1Second" classname="calculator.CalculatorTest" time="0.51"/>
+  <testcase name="listDigits_shouldReturnsTheListOfDigits_ofPositiveInteger" classname="calculator.CalculatorTest" time="0.017"/>
+  <testcase name="multiply_shouldReturnZero_ofZeroWithMultipleIntegers{int}[1]" classname="calculator.CalculatorTest" time="0.002"/>
+  <testcase name="multiply_shouldReturnZero_ofZeroWithMultipleIntegers{int}[2]" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="multiply_shouldReturnZero_ofZeroWithMultipleIntegers{int}[3]" classname="calculator.CalculatorTest" time="0"/>
+  <testcase name="multiply_shouldReturnZero_ofZeroWithMultipleIntegers{int}[4]" classname="calculator.CalculatorTest" time="0.001"/>
+  <testcase name="multiply_shouldReturnZero_ofZeroWithMultipleIntegers{int}[5]" classname="calculator.CalculatorTest" time="0.001"/>
+</testsuite>
