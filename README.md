@@ -1,5 +1,5 @@
 # MOOCs (Massive open online course)
-This folder keeps my assigments, tests, codes, fail & tries and other courses' DY works of accomplished courses of the following [MOOCs](https://en.wikipedia.org/wiki/Massive_open_online_course) platforms:
+Here's my assigments, tests, codes, "fail & tries", code-snippets & other courses' "Do-Yourself" works for accomplished following [*MOOC courses*](https://en.wikipedia.org/wiki/Massive_open_online_course) :
 - [Academy Workato](https://academy.workato.com/)
 - [Coursera](https://www.coursera.org/) 
 - [Microsoft Learn](https://learn.microsoft.com/en-us/training/)
